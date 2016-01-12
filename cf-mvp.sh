@@ -15,7 +15,7 @@ set -ex
 # 3. git installed.
 # 4. A modern ruby installed (via rbenv, rvm, or similar).
 
-VM_MEMORY=8192 # 10G of Memory, yo.
+VM_MEMORY=8192
 WORKSPACE=$(mktemp -d $HOME/cf-workspace-XXXX)
 STEMCELL_VERSION=2776
 REDIS_VERSION=424

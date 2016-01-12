@@ -32,7 +32,7 @@ cf delete cfenv-docker
 
 ```sh
 cf marketplace
-cf create-service redis shared-vm cfenv-redis
+cf create-service p-redis shared-vm cfenv-redis
 ```
 
 ## Buildpack
